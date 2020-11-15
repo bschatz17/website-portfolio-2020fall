@@ -60,7 +60,7 @@ body.home{
 
 .column{
   float:right;
-  width: 47.5%;
+  width: 31%;
   margin: 20px 1.15%;
   height: 160px;
   background-color: #B2D6FF;
@@ -123,17 +123,35 @@ body.cast{
   font-style: italic;
   font-weight: lighter;
   font-size: 300%;
-
 }
 
-.cast-container{
+.info-container{
   text-align: left;
-  margin-left: 40%;
+  margin-left: 35%;
   color: white;
   text-decoration: none;
   font-family: monospace;
+  font-size: 200%;
 }
 
 .name{
   text-decoration: none;
+}
+
+/* about */
+
+body.info {
+  background-color: lightblue;
+  margin: 30px;
+}
+
+.summary{
+  text-align: center;
+  font-family: monospace;
+  color: white;
+  font-size: 200%;
+
+  margin-left: 200px;
+  margin-right: 200px;
+
 }
