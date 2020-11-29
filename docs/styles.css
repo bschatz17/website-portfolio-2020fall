@@ -1,0 +1,160 @@
+* {
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* .menu-container {
+  color: #fff;
+  background-color: #5995DA;  /* Blue */
+  /* padding: 20px 0; */
+  /* vertical-align: middle; */
+  /* display: flex;
+  align-items: center; */
+/* } */
+
+body.home{
+  background-image: url('images/robin-matt.jpg');
+  background-size: 34%;
+  align-items: center;
+}
+
+
+.menu {
+  /* border: 2px solid #fff;  /* For debugging */ */
+  height: 70px;
+  text-align: center;
+  margin-top: 235px;
+}
+
+/* .page {
+  width: 600px;
+  margin: 0 auto;
+  border: 1px solid red;
+  overflow: hidden;
+  background-color: #EAEDF0;
+} */
+
+.content {
+  height: 400px;
+  width: auto;
+  text-align: center;
+
+  display: block;
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin: 0 auto;
+  overflow: hidden;
+
+}
+
+.footer {
+  /* clear: both; */
+  background-color: #D6E9FE;    /* Light blue */
+  height: 225px;
+  overflow: hidden;
+  font-family: monospace;
+  font-size: 30px;
+  /* float:  */
+}
+
+.column{
+  float:right;
+  width: 22.7%;
+  margin: 20px 1.15%;
+  height: 160px;
+  background-color: #B2D6FF;
+  text-align: center;
+
+  padding: 50px;
+  text-decoration: none;
+}
+
+
+.cast-container {
+  margin-left: 30px;
+  font-size: 20px;
+}
+
+
+/* Gallery */
+
+.whole-gallery{
+    background-color: #F0E68C;
+}
+
+.side{
+  width: 35%;
+  display: grid;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.gallery {
+  margin: 5px;
+  float: right;
+  width: 300px;
+  flex: 50%;
+  text-align: center;
+}
+
+.gallery:hover {
+  opacity: .3;
+}
+
+.gallery img {
+  width: 500px;
+  height: auto;
+}
+
+.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+/* Cast */
+
+body.cast{
+  background-color: grey;
+  margin: 30px;
+}
+.cast-heading{
+  text-align: center;
+  color: white;
+  font-family: monospace;
+  font-style: italic;
+  font-weight: lighter;
+  font-size: 300%;
+}
+
+.info-container{
+  text-align: left;
+  margin-left: 35%;
+  color: white;
+  text-decoration: none;
+  font-family: monospace;
+  font-size: 200%;
+}
+
+.name{
+  text-decoration: none;
+}
+
+/* about */
+
+body.info {
+  background-color: lightblue;
+  margin: 30px;
+}
+
+.summary{
+  text-align: center;
+  font-family: monospace;
+  color: white;
+  font-size: 200%;
+
+  margin-left: 200px;
+  margin-right: 200px;
+
+}
